@@ -6,7 +6,7 @@ Game for club awareness we will have a table in the lunch room and have people p
 TO DO.
 
 1. Platforms randomly generate.
-    .rules to make it so platforms don't generate in impossible ways.
+   Rules to make it so platforms don't generate in ways that make it impossible to pass.
 
 2. keeps track of height in top corner 
 
