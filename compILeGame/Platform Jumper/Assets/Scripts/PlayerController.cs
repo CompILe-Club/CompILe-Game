@@ -8,30 +8,42 @@ public class PlayerController : MonoBehaviour {
     public Rigidbody rb;
     public float jump;
     public Text TextBox;
-    public Text TextBox1;
-    public Text TextBox2;
-    public Text TextBox3;
-    public Text TextBox4;
-    public Text TextBox5;
+    public Text TextBoxScore;
     public GameObject PlayAgain;
     public GameObject MainMenu;
-    public float DistToFloorJump = 0.3f;
 
+    private Vector3 lastPosition;
     private bool isGrounded = true;
     private bool highJump = false;
     private int count;
     private bool doubleJump = false;
+    private int score;
 	// Use this for initialization
 	void Start () {
         speed = 3;
         rb = GetComponent<Rigidbody>();
         count = 0;
+        score = 0;
         
         MainMenu.gameObject.SetActive(false);
         PlayAgain.gameObject.SetActive(false);
         TextBox.gameObject.SetActive(false);
 
     }
+
+    private void Update()
+    {
+        if (((this.transform.position.y) * 10) > score)
+            
+            score = (int)(this.transform.position.y*10);
+
+        
+    }
+    private void OnGUI()
+    {
+        TextBoxScore.text = "Score: "+score;
+    }
+
     private void FixedUpdate()
     {
         float movement = Input.GetAxis("Horizontal") * speed;
@@ -82,22 +94,7 @@ public class PlayerController : MonoBehaviour {
                 doubleJump = true;
             }
 
-            if (collision.gameObject.CompareTag("Level Complete"))
-            {
-                MainMenu.gameObject.SetActive(true);
-                PlayAgain.gameObject.SetActive(true);
-                TextBox.gameObject.SetActive(true);
-                TextBox.text = "Level Completed!";
 
-            }
-            if (collision.gameObject.CompareTag("Final Level Complete"))
-            {
-                MainMenu.gameObject.SetActive(true);
-                PlayAgain.gameObject.SetActive(true);
-                TextBox.gameObject.SetActive(true);
-                TextBox.text = "You Won!";
-
-            }
 
     }
     private void OnCollisionExit(Collision collision)
@@ -121,9 +118,12 @@ public class PlayerController : MonoBehaviour {
 
 
     }
+    // if the player enters the invisible plane under the level that indicates that the player has fallen and lost show text that asks to play again.
+    // To Do: If player has a highscore prompt user for name and add their score to list of top ten scores.
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Game Over") && TextBox.text.Equals("Level Completed!") == false)
+        if (other.gameObject.CompareTag("Game Over"))
         {
             MainMenu.gameObject.SetActive(true);
             PlayAgain.gameObject.SetActive(true);
@@ -132,7 +132,7 @@ public class PlayerController : MonoBehaviour {
 
         }
 
-        if (other.gameObject.CompareTag("Final Level Complete") && TextBox.text.Equals("You Won!") == false)
+        if (other.gameObject.CompareTag("Final Level Complete"))
         {
             MainMenu.gameObject.SetActive(true);
             PlayAgain.gameObject.SetActive(true);
