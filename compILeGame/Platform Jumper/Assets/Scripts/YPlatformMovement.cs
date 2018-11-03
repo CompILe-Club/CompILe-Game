@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class YPlatformMovement : MonoBehaviour {
 
-    public float yLimitUp = 34.73f;
-    public float yLimitDown = 30.73f;
+    private float yLimitUp;
+    private float yLimitDown;
     public float speed = 2f;
     private int direction = 1;
 
+    private void Start()
+    {
+        yLimitUp = transform.position.y + 3;
+        yLimitDown = transform.position.y - 3;
 
+    }
     // Update is called once per frame
     void Update()
     {

@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class PlatformMovement : MonoBehaviour {
 
-    public float xLimitRight = 34.73f;
-    public float xLimitLeft = 30.73f;
+    public GameObject platform;
+    public float xLimitRight;
+    public float xLimitLeft;
     public float speed = 2f;
     private int direction = 1;
-	
-    
-	// Update is called once per frame
-	void Update () {
+
+
+    // Update is called once per frame
+    void Start()
+    {
+        xLimitRight = transform.position.x + 5;
+        xLimitLeft = transform.position.x - 5;
+    }
+    void Update () {
 
         if (transform.position.x > xLimitRight)
         {
