@@ -10,6 +10,7 @@ TagManager:
   - Floorx2
   - Double Jump
   - Final Level Complete
+  - GenerationPoint
   layers:
   - Default
   - TransparentFX
