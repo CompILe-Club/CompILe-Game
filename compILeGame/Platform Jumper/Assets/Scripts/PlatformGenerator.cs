@@ -14,7 +14,7 @@ public class PlatformGenerator : MonoBehaviour {
         int rand = 0;
         if (this.transform.position.y < 20)
         {
-            rand = Random.Range(0, objects.Length-3);
+            rand = Random.Range(0, objects.Length);
         }
         else
         {

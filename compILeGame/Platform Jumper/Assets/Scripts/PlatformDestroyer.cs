@@ -3,17 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlatformDestroyer : MonoBehaviour {
-    public GameObject DestructionPoint;
-	// Use this for initialization
-	void Start () {
-        DestructionPoint = GameObject.Find("PlatformDestroy");
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        if (transform.position.y < DestructionPoint.transform.position.y)
+
+    private GameObject boundary;
+
+    void Start()
+    {
+        boundary = GameObject.Find("Boundary");
+    }
+
+    void Update()
+    {
+        if (transform.position.y < boundary.transform.position.y)
         {
             Destroy(gameObject);
         }
-	}
+    }
+
 }
