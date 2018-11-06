@@ -12,10 +12,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-<<<<<<< HEAD
-  lastUpdatedAtString: 2018-11-05T13:35:06.064-06:00
-  initializedAtString: 2018-11-05T13:34:36.209-06:00
+  lastUpdatedAtString: 2018-11-05T19:50:52.407-06:00
+  initializedAtString: 2018-11-05T19:40:51.084-06:00
   entries:
+  - path: compILeGame\Platform Jumper\Assembly-CSharp.csproj
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: compILeGame\Platform Jumper\Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: compILeGame\Platform Jumper\Assets\Sprites.meta
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Assets\Sprites.meta
+    projectPath: Assets\Sprites.meta
+    originalPath: 
+    status: 1
+    staged: 0
   - path: compILeGame\Platform Jumper\Library\assetDatabase3
     fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\assetDatabase3
     projectPath: Library\assetDatabase3
@@ -25,505 +42,96 @@ MonoBehaviour:
   - path: compILeGame\Platform Jumper\Library\CurrentLayout.dwlt
     fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\CurrentLayout.dwlt
     projectPath: Library\CurrentLayout.dwlt
-=======
-  lastUpdatedAtString: 2018-11-04T14:41:28.358-06:00
-  initializedAtString: 2018-11-04T12:44:58.752-06:00
-  entries:
-  - path: .gitignore.txt
-    fullPath: C:\Unity Projects\CompILe-Game\.gitignore.txt
-    projectPath: ..\..\.gitignore.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: compILeGame\Platform Jumper\.vs\Platform Jumper\v15\.suo
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\.vs\Platform
-      Jumper\v15\.suo
-    projectPath: .vs\Platform Jumper\v15\.suo
     originalPath: 
     status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\.vs\Platform Jumper\v15\Server\sqlite3\storage.ide
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\.vs\Platform
-      Jumper\v15\Server\sqlite3\storage.ide
-    projectPath: .vs\Platform Jumper\v15\Server\sqlite3\storage.ide
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\.vs\Platform Jumper\v15\Server\sqlite3\storage.ide-shm
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\.vs\Platform
-      Jumper\v15\Server\sqlite3\storage.ide-shm
-    projectPath: .vs\Platform Jumper\v15\Server\sqlite3\storage.ide-shm
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\.vs\Platform Jumper\v15\Server\sqlite3\storage.ide-wal
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\.vs\Platform
-      Jumper\v15\Server\sqlite3\storage.ide-wal
-    projectPath: .vs\Platform Jumper\v15\Server\sqlite3\storage.ide-wal
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Assembly-CSharp.csproj
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Assets\Prefabs\PlatformDestoy.prefab
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Assets\Prefabs\PlatformDestoy.prefab
-    projectPath: Assets\Prefabs\PlatformDestoy.prefab
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: compILeGame\Platform Jumper\Assets\Prefabs\PlatformDestoy.prefab.meta
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Assets\Prefabs\PlatformDestoy.prefab.meta
-    projectPath: Assets\Prefabs\PlatformDestoy.prefab.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: compILeGame\Platform Jumper\Assets\Prefabs\PlatformGenerator.prefab
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Assets\Prefabs\PlatformGenerator.prefab
-    projectPath: Assets\Prefabs\PlatformGenerator.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: compILeGame\Platform Jumper\Assets\Prefabs\PlatformGenerator.prefab.meta
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Assets\Prefabs\PlatformGenerator.prefab.meta
-    projectPath: Assets\Prefabs\PlatformGenerator.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: compILeGame\Platform Jumper\Assets\Prefabs\PlatGenTemplate01.prefab
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Assets\Prefabs\PlatGenTemplate01.prefab
-    projectPath: Assets\Prefabs\PlatGenTemplate01.prefab
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Assets\Prefabs\PlatGenTemplate02.prefab
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Assets\Prefabs\PlatGenTemplate02.prefab
-    projectPath: Assets\Prefabs\PlatGenTemplate02.prefab
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Assets\Prefabs\PlatGenTemplate04.prefab
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Assets\Prefabs\PlatGenTemplate04.prefab
-    projectPath: Assets\Prefabs\PlatGenTemplate04.prefab
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Assets\Prefabs\PlatGenTemplate05.prefab
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Assets\Prefabs\PlatGenTemplate05.prefab
-    projectPath: Assets\Prefabs\PlatGenTemplate05.prefab
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Assets\Scenes\GameScene.unity
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Assets\Scenes\GameScene.unity
-    projectPath: Assets\Scenes\GameScene.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Assets\Sprites.meta
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Assets\Sprites.meta
-    projectPath: Assets\Sprites.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\assetDatabase3
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\assetDatabase3
-    projectPath: Library\assetDatabase3
->>>>>>> ec4d135744fd43fafd833b8053c72a2d3186bd68
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\CurrentMaximizeLayout.dwlt
-<<<<<<< HEAD
-    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\CurrentMaximizeLayout.dwlt
-=======
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\CurrentMaximizeLayout.dwlt
->>>>>>> ec4d135744fd43fafd833b8053c72a2d3186bd68
-    projectPath: Library\CurrentMaximizeLayout.dwlt
-    originalPath: 
-    status: 1
     staged: 0
   - path: compILeGame\Platform Jumper\Library\EditorInstance.json
-<<<<<<< HEAD
     fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\EditorInstance.json
-=======
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\EditorInstance.json
->>>>>>> ec4d135744fd43fafd833b8053c72a2d3186bd68
     projectPath: Library\EditorInstance.json
     originalPath: 
     status: 1
     staged: 0
-<<<<<<< HEAD
-  - path: compILeGame\Platform Jumper\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\gfu\cache\gitstatusentries.yaml
-=======
   - path: compILeGame\Platform Jumper\Library\gfu\cache\branches.yaml
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\gfu\cache\branches.yaml
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: compILeGame\Platform Jumper\Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\gfu\cache\gitlog.yaml
     projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: compILeGame\Platform Jumper\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\gfu\cache\gitstatusentries.yaml
->>>>>>> ec4d135744fd43fafd833b8053c72a2d3186bd68
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: compILeGame\Platform Jumper\Library\gfu\cache\gittrackingstatus.yaml
-<<<<<<< HEAD
     fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\gfu\cache\gittrackingstatus.yaml
-=======
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\gfu\cache\gittrackingstatus.yaml
->>>>>>> ec4d135744fd43fafd833b8053c72a2d3186bd68
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: compILeGame\Platform Jumper\Library\gfu\cache\repoinfo.yaml
-<<<<<<< HEAD
     fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\gfu\cache\repoinfo.yaml
-=======
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\gfu\cache\repoinfo.yaml
->>>>>>> ec4d135744fd43fafd833b8053c72a2d3186bd68
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0
-<<<<<<< HEAD
-  - path: compILeGame\Platform Jumper\Temp\__Backupscenes\0.backup
-    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Temp\__Backupscenes\0.backup
-=======
-  - path: compILeGame\Platform Jumper\Library\InspectorExpandedItems.asset
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\0d\0d0a4355d26623b439cee0801c12ca03
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\0d\0d0a4355d26623b439cee0801c12ca03
-    projectPath: Library\metadata\0d\0d0a4355d26623b439cee0801c12ca03
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\11\119562c0181e1f043afd5a796d4ddefe
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\11\119562c0181e1f043afd5a796d4ddefe
-    projectPath: Library\metadata\11\119562c0181e1f043afd5a796d4ddefe
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
-    projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\21\218f2a08be0363e4ea376ad55dda2c92
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\21\218f2a08be0363e4ea376ad55dda2c92
-    projectPath: Library\metadata\21\218f2a08be0363e4ea376ad55dda2c92
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\41\41445db3e08ad6b47838733ccd3cc6e1.info
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\41\41445db3e08ad6b47838733ccd3cc6e1.info
-    projectPath: Library\metadata\41\41445db3e08ad6b47838733ccd3cc6e1.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\51\515f5059e8fa53947a92eed85eb57c54
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\51\515f5059e8fa53947a92eed85eb57c54
-    projectPath: Library\metadata\51\515f5059e8fa53947a92eed85eb57c54
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\59\5902f3b96baa6344c847900866558703.info
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\59\5902f3b96baa6344c847900866558703.info
-    projectPath: Library\metadata\59\5902f3b96baa6344c847900866558703.info
-    originalPath: 
-    status: 3
-    staged: 0
   - path: compILeGame\Platform Jumper\Library\metadata\64\64fa5269b7bbb634e953c1d5a67c223f
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\64\64fa5269b7bbb634e953c1d5a67c223f
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\64\64fa5269b7bbb634e953c1d5a67c223f
     projectPath: Library\metadata\64\64fa5269b7bbb634e953c1d5a67c223f
     originalPath: 
-    status: 5
+    status: 1
     staged: 0
   - path: compILeGame\Platform Jumper\Library\metadata\64\64fa5269b7bbb634e953c1d5a67c223f.info
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\64\64fa5269b7bbb634e953c1d5a67c223f.info
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\64\64fa5269b7bbb634e953c1d5a67c223f.info
     projectPath: Library\metadata\64\64fa5269b7bbb634e953c1d5a67c223f.info
     originalPath: 
-    status: 5
+    status: 1
     staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\87\877ef3585573ce44eab899298be23158.info
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\87\877ef3585573ce44eab899298be23158.info
-    projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158.info
+  - path: compILeGame\Platform Jumper\Library\ProjectSettings.asset
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\ProjectSettings.asset
+    projectPath: Library\ProjectSettings.asset
     originalPath: 
     status: 3
     staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\88\88a982aac40f26a4f832a26eb9ed9647
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\88\88a982aac40f26a4f832a26eb9ed9647
-    projectPath: Library\metadata\88\88a982aac40f26a4f832a26eb9ed9647
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\93\93c401ad670be0c4090ab55fef3fb1b9.info
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\93\93c401ad670be0c4090ab55fef3fb1b9.info
-    projectPath: Library\metadata\93\93c401ad670be0c4090ab55fef3fb1b9.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\94\9481883fcc2b75f48a75500278af2493
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\94\9481883fcc2b75f48a75500278af2493
-    projectPath: Library\metadata\94\9481883fcc2b75f48a75500278af2493
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\94\9481883fcc2b75f48a75500278af2493.info
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\94\9481883fcc2b75f48a75500278af2493.info
-    projectPath: Library\metadata\94\9481883fcc2b75f48a75500278af2493.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\aa\aac58f5b4397ce042b025e3b7aee3481
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\aa\aac58f5b4397ce042b025e3b7aee3481
-    projectPath: Library\metadata\aa\aac58f5b4397ce042b025e3b7aee3481
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\b4\b416082ed5d82814ea2cfd4e423e05f9
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\b4\b416082ed5d82814ea2cfd4e423e05f9
-    projectPath: Library\metadata\b4\b416082ed5d82814ea2cfd4e423e05f9
+  - path: compILeGame\Platform Jumper\Library\ShaderCache\3\33f85d579281f16bb8cd3eb71b460274.bin
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\ShaderCache\3\33f85d579281f16bb8cd3eb71b460274.bin
+    projectPath: Library\ShaderCache\3\33f85d579281f16bb8cd3eb71b460274.bin
     originalPath: 
     status: 1
     staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\b4\b416082ed5d82814ea2cfd4e423e05f9.info
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\b4\b416082ed5d82814ea2cfd4e423e05f9.info
-    projectPath: Library\metadata\b4\b416082ed5d82814ea2cfd4e423e05f9.info
+  - path: compILeGame\Platform Jumper\Library\ShaderCache\8\8f0fbd7e297144cce4018925c81b3bd0.bin
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\ShaderCache\8\8f0fbd7e297144cce4018925c81b3bd0.bin
+    projectPath: Library\ShaderCache\8\8f0fbd7e297144cce4018925c81b3bd0.bin
     originalPath: 
     status: 1
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\bc\bc15ec51ed308264eaa9fb6134c12de0
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\bc\bc15ec51ed308264eaa9fb6134c12de0
-    projectPath: Library\metadata\bc\bc15ec51ed308264eaa9fb6134c12de0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\d5\d5070cb39e9c19d4789266ca7a109c08.info
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\d5\d5070cb39e9c19d4789266ca7a109c08.info
-    projectPath: Library\metadata\d5\d5070cb39e9c19d4789266ca7a109c08.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\d7\d7c5144ff3230a644b0ba07038b691c7
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\d7\d7c5144ff3230a644b0ba07038b691c7
-    projectPath: Library\metadata\d7\d7c5144ff3230a644b0ba07038b691c7
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\e1\e11085ea51361334ea681c6ac4078de6
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\e1\e11085ea51361334ea681c6ac4078de6
-    projectPath: Library\metadata\e1\e11085ea51361334ea681c6ac4078de6
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\metadata\f4\f4e1ff15dd205b148beb267aea2bed1a.info
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\metadata\f4\f4e1ff15dd205b148beb267aea2bed1a.info
-    projectPath: Library\metadata\f4\f4e1ff15dd205b148beb267aea2bed1a.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
-    originalPath: 
-    status: 3
     staged: 0
   - path: compILeGame\Platform Jumper\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     status: 3
     staged: 0
-  - path: compILeGame\Platform Jumper\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\ProjectSettings\QualitySettings.asset
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\ProjectSettings\QualitySettings.asset
-    projectPath: ProjectSettings\QualitySettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: compILeGame\Platform Jumper\ProjectSettings\TagManager.asset
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
-    originalPath: 
-    status: 3
-    staged: 0
   - path: compILeGame\Platform Jumper\Temp\__Backupscenes\0.backup
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Temp\__Backupscenes\0.backup
->>>>>>> ec4d135744fd43fafd833b8053c72a2d3186bd68
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
     status: 1
     staged: 0
   - path: compILeGame\Platform Jumper\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-<<<<<<< HEAD
     fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-=======
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
->>>>>>> ec4d135744fd43fafd833b8053c72a2d3186bd68
     projectPath: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
     originalPath: 
     status: 1
     staged: 0
   - path: compILeGame\Platform Jumper\Temp\UnityLockfile
-<<<<<<< HEAD
     fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\Temp\UnityLockfile
-=======
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Temp\UnityLockfile
->>>>>>> ec4d135744fd43fafd833b8053c72a2d3186bd68
     projectPath: Temp\UnityLockfile
     originalPath: 
     status: 1
     staged: 0
-<<<<<<< HEAD
-=======
-  - path: compILeGame\Platform Jumper\Temp\UnityTempFile-4932165bb7a7ff0489471d043bee56a4
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Temp\UnityTempFile-4932165bb7a7ff0489471d043bee56a4
-    projectPath: Temp\UnityTempFile-4932165bb7a7ff0489471d043bee56a4
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: compILeGame\Platform Jumper\Temp\UnityTempFile-564a565f4099bca44802a1fbcd174da1
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Temp\UnityTempFile-564a565f4099bca44802a1fbcd174da1
-    projectPath: Temp\UnityTempFile-564a565f4099bca44802a1fbcd174da1
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: compILeGame\Platform Jumper\Temp\UnityTempFile-73227620219e19e4288a341f29efbeaf
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Temp\UnityTempFile-73227620219e19e4288a341f29efbeaf
-    projectPath: Temp\UnityTempFile-73227620219e19e4288a341f29efbeaf
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: compILeGame\Platform Jumper\Temp\UnityTempFile-74972199f1ab9c64fb391237652dd6c5
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Temp\UnityTempFile-74972199f1ab9c64fb391237652dd6c5
-    projectPath: Temp\UnityTempFile-74972199f1ab9c64fb391237652dd6c5
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: compILeGame\Platform Jumper\Temp\UnityTempFile-78c446a4627061d449037d9f290207fd
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Temp\UnityTempFile-78c446a4627061d449037d9f290207fd
-    projectPath: Temp\UnityTempFile-78c446a4627061d449037d9f290207fd
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: compILeGame\Platform Jumper\Temp\UnityTempFile-c9b44f09fa49c3b43b57462141d4227f
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Temp\UnityTempFile-c9b44f09fa49c3b43b57462141d4227f
-    projectPath: Temp\UnityTempFile-c9b44f09fa49c3b43b57462141d4227f
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: compILeGame\Platform Jumper\Temp\UnityTempFile-ca5762b0507f7c74b8fbbea8f112f4d7
-    fullPath: C:\Unity Projects\CompILe-Game\compILeGame\Platform Jumper\Temp\UnityTempFile-ca5762b0507f7c74b8fbbea8f112f4d7
-    projectPath: Temp\UnityTempFile-ca5762b0507f7c74b8fbbea8f112f4d7
-    originalPath: 
-    status: 1
-    staged: 0
->>>>>>> ec4d135744fd43fafd833b8053c72a2d3186bd68

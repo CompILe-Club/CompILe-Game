@@ -12,13 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-<<<<<<< HEAD
-  lastUpdatedAtString: 2018-11-05T13:34:35.745-06:00
-  initializedAtString: 2018-11-05T13:34:35.745-06:00
-=======
-  lastUpdatedAtString: 2018-11-04T14:41:27.439-06:00
-  initializedAtString: 2018-11-04T12:44:58.443-06:00
->>>>>>> ec4d135744fd43fafd833b8053c72a2d3186bd68
+  lastUpdatedAtString: 2018-11-05T19:50:05.310-06:00
+  initializedAtString: 2018-11-05T19:40:50.778-06:00
   currentGitRemote:
     name: origin
     url: https://github.com/CompILe-Club/CompILe-Game.git
