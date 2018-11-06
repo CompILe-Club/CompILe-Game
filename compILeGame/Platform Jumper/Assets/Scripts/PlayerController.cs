@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerController : MonoBehaviour {
     public int speed;
     public Rigidbody rb;
     public float jump;
-    public Text TextBox;
-    public Text TextBoxScore;
+    public TextMeshProUGUI TextBox;
+    public TextMeshProUGUI TextBoxScore;
     public GameObject PlayAgain;
     public GameObject MainMenu;
 
