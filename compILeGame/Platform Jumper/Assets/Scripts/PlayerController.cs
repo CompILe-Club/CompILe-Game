@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Data;
+using Mono.Data.Sqlite;
 using TMPro;
+using System;
 
 public class PlayerController : MonoBehaviour {
     public int speed;
@@ -10,8 +13,10 @@ public class PlayerController : MonoBehaviour {
     public float jump;
     public TextMeshProUGUI TextBox;
     public TextMeshProUGUI TextBoxScore;
+    public TMP_InputField enterName;
     public GameObject PlayAgain;
     public GameObject MainMenu;
+    public GameObject nameDialog;
 
     private Vector3 lastPosition;
     private bool isGrounded = true;
@@ -19,8 +24,11 @@ public class PlayerController : MonoBehaviour {
     private int count;
     private bool doubleJump = false;
     private int score;
-	// Use this for initialization
-	void Start () {
+    private String connectionString;
+    // Use this for initialization
+    void Start () {
+        enterName.characterLimit = 12;
+        connectionString = "URI=file:" + Application.dataPath + "/HighScoresDB.sqlite";
         speed = 3;
         rb = GetComponent<Rigidbody>();
         count = 0;
@@ -29,6 +37,7 @@ public class PlayerController : MonoBehaviour {
         MainMenu.gameObject.SetActive(false);
         PlayAgain.gameObject.SetActive(false);
         TextBox.gameObject.SetActive(false);
+        nameDialog.gameObject.SetActive(false);
 
     }
 
@@ -126,6 +135,7 @@ public class PlayerController : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("Game Over"))
         {
+            nameDialog.gameObject.SetActive(true);
             MainMenu.gameObject.SetActive(true);
             PlayAgain.gameObject.SetActive(true);
             TextBox.gameObject.SetActive(true);
@@ -142,6 +152,37 @@ public class PlayerController : MonoBehaviour {
         }
 
 
+    }
+
+    public void EnterName()
+    {
+        if (enterName.text != string.Empty)
+        {
+            
+            InsertScore(enterName.text, score);
+
+            enterName.text = string.Empty;
+            nameDialog.gameObject.SetActive(false);
+            
+        }
+    }
+
+    private void InsertScore(string name, int newScore)
+    {
+        using (IDbConnection dbConnection = new SqliteConnection(connectionString))
+        {
+            dbConnection.Open();
+
+            using (IDbCommand dbCmd = dbConnection.CreateCommand())
+            {
+                string sqlQuery = String.Format("INSERT INTO HighScores(Name,Score) VALUES(\"{0}\",\"{1}\")", name, newScore);
+
+                dbCmd.CommandText = sqlQuery;
+                dbCmd.ExecuteScalar();
+                dbConnection.Close();
+
+            }
+        }
     }
 
 
