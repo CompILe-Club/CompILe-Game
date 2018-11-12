@@ -8,39 +8,40 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: b7557f0cd792c3f44af4b7fc0e427d36
-  - enabled: 0
-    path: Assets/Scenes/LevelMenu.unity
-    guid: 7697f7ecf1f1f3d47b2da1da46c80e21
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: d6aeac4368230a44ab2a53c9af46c2f6
-  - enabled: 0
-    path: Assets/Scenes/Level 2.unity
-    guid: ef3767bda1649e5468d88b26721c1c55
-  - enabled: 0
-    path: Assets/Scenes/Level 3.unity
-    guid: dfca98a215860e641a2f8436665bcc55
-  - enabled: 0
-    path: Assets/Scenes/Level 4.unity
-    guid: 16776625ef5748640a245fb986aa73ef
-  - enabled: 0
-    path: Assets/Scenes/Level 5.unity
-    guid: 702d0f26949638e4cb58da4c0995e399
-  - enabled: 0
-    path: Assets/Scenes/Level 6.unity
-    guid: 2ce20e72abc6f4c44ae8151e124834f7
-  - enabled: 0
-    path: Assets/Scenes/Level 7.unity
-    guid: 26a402162c9a4ad43b6e97466f367263
-  - enabled: 0
-    path: Assets/Scenes/Level 8.unity
-    guid: 4d36867063c1e4343b0bf2fc535c3af9
-  - enabled: 0
-    path: Assets/Scenes/Level 9.unity
-    guid: d55180c8a36ae3d40a0faa89a3702d82
-  - enabled: 0
-    path: Assets/Scenes/Level 10.unity
-    guid: 2e9093023e2b37d41929fad74dc866e3
   - enabled: 1
     path: Assets/Scenes/HighScores.unity
     guid: 153f7f82479721c4e82c60fc0e8ed256
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  m_configObjects: {}

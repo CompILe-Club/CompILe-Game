@@ -23,6 +23,7 @@ public class HighScoreManager : MonoBehaviour {
     // Use this for initialization
     void Start () {
         connectionString = "URI=file:" + Application.dataPath+ "/HighScoresDB.sqlite";
+
         
         DeleteExtraScore();
         ShowScores();
@@ -135,6 +136,8 @@ public class HighScoreManager : MonoBehaviour {
         }
         highScores.Sort();
     }
+
+
 
     private void DeleteExtraScore()
     {

@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour {
     public int speed;
     public Rigidbody rb;
     public float jump;
+    
     public TextMeshProUGUI TextBox;
     public TextMeshProUGUI TextBoxScore;
     public TMP_InputField enterName;
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour {
     private bool doubleJump = false;
     private int score;
     private String connectionString;
+    
     // Use this for initialization
     void Start () {
         enterName.characterLimit = 12;
@@ -33,7 +35,7 @@ public class PlayerController : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
         count = 0;
         score = 0;
-        
+        CreateTable();
         MainMenu.gameObject.SetActive(false);
         PlayAgain.gameObject.SetActive(false);
         TextBox.gameObject.SetActive(false);
@@ -62,7 +64,7 @@ public class PlayerController : MonoBehaviour {
         //jump code
         if (Input.GetButtonDown("Jump") && isGrounded == true && highJump == true)
         {
-            rb.velocity += jump/2*3 * Vector3.up;
+            rb.velocity += jump / 2 * 3 * Vector3.up;
         }
         else if (Input.GetButtonDown("Jump") && isGrounded == true && doubleJump == true)
         {
@@ -176,6 +178,23 @@ public class PlayerController : MonoBehaviour {
             using (IDbCommand dbCmd = dbConnection.CreateCommand())
             {
                 string sqlQuery = String.Format("INSERT INTO HighScores(Name,Score) VALUES(\"{0}\",\"{1}\")", name, newScore);
+
+                dbCmd.CommandText = sqlQuery;
+                dbCmd.ExecuteScalar();
+                dbConnection.Close();
+
+            }
+        }
+    }
+    private void CreateTable()
+    {
+        using (IDbConnection dbConnection = new SqliteConnection(connectionString))
+        {
+            dbConnection.Open();
+
+            using (IDbCommand dbCmd = dbConnection.CreateCommand())
+            {
+                string sqlQuery = String.Format("CREATE TABLE if not exists HighScores (PlayerID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL UNIQUE, Name TEXT NOT NULL, Score INTEGER NOT NULL, Date DATE NOT NULL DEFAULT CURRENT_DATE)");
 
                 dbCmd.CommandText = sqlQuery;
                 dbCmd.ExecuteScalar();
