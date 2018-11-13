@@ -12,6 +12,111 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-11-11T19:09:38.048-06:00
-  initializedAtString: 2018-11-11T19:08:56.040-06:00
-  entries: []
+  lastUpdatedAtString: 2018-11-12T13:20:47.489-06:00
+  initializedAtString: 2018-11-12T13:20:18.529-06:00
+  entries:
+  - path: compILeGame\Platform Jumper\Assembly-CSharp.csproj
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\compILeGame\Platform
+      Jumper\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: compILeGame\Platform Jumper\Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\compILeGame\Platform
+      Jumper\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: compILeGame\Platform Jumper\Assets\HighScoresDB.sqlite
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\compILeGame\Platform
+      Jumper\Assets\HighScoresDB.sqlite
+    projectPath: Assets\HighScoresDB.sqlite
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: compILeGame\Platform Jumper\Library\assetDatabase3
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\compILeGame\Platform
+      Jumper\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: compILeGame\Platform Jumper\Library\CrashedAssetImports.txt
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\compILeGame\Platform
+      Jumper\Library\CrashedAssetImports.txt
+    projectPath: Library\CrashedAssetImports.txt
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: compILeGame\Platform Jumper\Library\CurrentMaximizeLayout.dwlt
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\compILeGame\Platform
+      Jumper\Library\CurrentMaximizeLayout.dwlt
+    projectPath: Library\CurrentMaximizeLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: compILeGame\Platform Jumper\Library\EditorInstance.json
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\compILeGame\Platform
+      Jumper\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: compILeGame\Platform Jumper\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\compILeGame\Platform
+      Jumper\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: compILeGame\Platform Jumper\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\compILeGame\Platform
+      Jumper\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: compILeGame\Platform Jumper\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\compILeGame\Platform
+      Jumper\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: compILeGame\Platform Jumper\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\compILeGame\Platform
+      Jumper\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: compILeGame\Platform Jumper\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\compILeGame\Platform
+      Jumper\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: compILeGame\Platform Jumper\Temp\__Backupscenes\0.backup
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\compILeGame\Platform
+      Jumper\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: compILeGame\Platform Jumper\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\compILeGame\Platform
+      Jumper\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    projectPath: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: compILeGame\Platform Jumper\Temp\UnityLockfile
+    fullPath: C:\GameFiles\CompILe-Game\compILeGame\Platform Jumper\compILeGame\Platform
+      Jumper\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    status: 1
+    staged: 0
